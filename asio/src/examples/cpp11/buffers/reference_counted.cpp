@@ -9,6 +9,7 @@
 //
 
 #include <asio.hpp>
+#include <ctime>
 #include <iostream>
 #include <memory>
 #include <utility>

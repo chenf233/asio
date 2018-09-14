@@ -186,7 +186,7 @@ private:
     auto self(shared_from_this());
     asio::async_write(socket_, asio::buffer(data_, length),
         make_custom_alloc_handler(handler_memory_,
-          [this, self](std::error_code ec, std::size_t /*length*/)
+          [this, self](std::error_code ec, std::size_t length)
           {
             if (!ec)
             {

@@ -4,6 +4,7 @@
 #include <asio/post.hpp>
 #include <asio/system_executor.hpp>
 #include <asio/use_future.hpp>
+#include <cctype>
 #include <condition_variable>
 #include <future>
 #include <memory>
